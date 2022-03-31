@@ -16,9 +16,10 @@ body {
 .listing_section {
   display: flex;
   flex-direction: row;
-  width: 95vw;
+  width: 97vw;
   flex-wrap: wrap;
   overflow: unset;
+  align-items: center;
 }
 .cover_image {
   width: 100%;
@@ -32,6 +33,10 @@ body {
   color: #4f4e4e;
   width: 400px;
   float: left;
+}
+
+.subject {
+  padding: 5px;
 }
 .seperator {
   width: 100vw;

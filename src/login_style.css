@@ -9,6 +9,7 @@ body * {
 }
 .section_split {
   display: flex;
+  background: url(log_upload.png;) no-repeat;
   flex-direction: column;
   width: 50vw;
   height: 100vh;
