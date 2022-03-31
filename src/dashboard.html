@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Login</title>
+    <link href="./dashboard.css" rel="stylesheet" type="text/css" />
+    <link href="./login_style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <h2 class="log_head">COLLOBORATIVE BOOK KEEPING</h2>
+      <div class="profile">
+        <img class="profile_icon" src="./book_images/profile_icon.png" />
+      </div>
+      <button placeholder="upload" class="upload_button">
+        <img class="upload_icon" src="./book_images/upload_icon.png" /><span
+          >Upload</span
+        >
+      </button>
+      <input placeholder="Search" class="search" />
+      <div class="seperator"></div>
+    </div>
+
+    <!-- <div class="upload_section">
+      <form action="./dashboard.html" method="get" class="upload_form ">
+        <div class="log_head">
+          <h1>UPLOAD BOOK</h1>
+        </div>
+       <table width="200" border="0" align="center">
+
+       
+            <div style="float: left; width: 50%;">
+
+        <tr>
+          <td class="input_fields">
+            <input placeholder="Book-Title" type="text" name="bookTitle" id="bookTitle" >
+            <span class="error_message"></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="input_fields">
+            <input placeholder="User Name" type="text" name="loginid" id="username" >
+            <span class="error_message"></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="input_fields">
+            <input placeholder="Subject" type="text" name="Title" id="Subject">
+            <span class="error_message"></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="input_fields">
+            <input placeholder="Book_cover" type="file" name="BookCover" id="BookCover" accept=".png , .jpeg" >
+            <span class="error_message"></span>
+          </td>
+        </tr>
+           
+      </div>
+
+     
+        <div style="float: right; width: 50%;">
+
+        
+        <tr>
+        <td class="input_fields">
+                <textarea name="text" cols="25" rows="5">
+      Add Discripton of the book here....
+          </textarea>
+        </td>
+      </tr>
+      <tr>
+        <td class="input_fields">
+          <input placeholder="Branch" type="text" name="Title" id="Branch">
+          <span class="error_message"></span>
+        </td>
+      </tr>
+    </tr>
+    <tr>
+      <td class="input_fields">
+        <input placeholder="Year" type="number" name="number" id="Year">
+        <span class="error_message"></span>
+      </td>
+    </tr>
+  </tr>
+          <tr>
+          <td class="input_fields">
+            <input placeholder="digital-book" type="file" name="upload" id="upload" >
+            <span class="error_message"></span>
+          </td>
+        </tr>
+      </div>
+         </div>  
+      
+        <tr>
+          <td align="center"><input type="submit" name="Upload" id="login_button" class="login-submit" value="Upload" ></td>
+        </tr>
+        <tr>
+          <span class="validation_error_msg"></span>
+        </tr>
+      </table>
+      </form> 
+    </div>-->
+    <div class="upload_section">
+      <iframe
+        src="upload.html"
+        title="Upload_file"
+        height="100%"
+        width="100%"
+      ></iframe>
+    </div>
+
+    <div class="listing_section"></div>
+    <div class="footer">
+      <div class="log_head">
+        <h1>DASHBOARD</h1>
+      </div>
+    </div>
+    <script type="module" src="book_listing.js"></script>
+  </body>
+</html>

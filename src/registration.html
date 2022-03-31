@@ -1,0 +1,54 @@
+<!DOCTYPE html >
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Login</title>
+<link href="./login_style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<br />
+<br />
+
+<div class="login-card">
+<div class="log_body">
+  <div class="cbk_wallpaper section_split">
+  </div>
+  <div class="registration-form section_split">
+    <div class="log_head">
+        <h1>Register New Account</h1>
+      </div>
+    <form  action="./dashboard.html" method="get" class="signup_form">
+        <div class="form-icon">
+            <span><i class="icon icon-user"></i></span>
+        </div>
+        <div class="input_fields">
+            <input type="text" class="form-control item" id="username" placeholder="Username/Email">
+            <span class="error_message"></span>
+        </div>
+        <div class="input_fields">
+            <input type="password" class="form-control item" id="password" placeholder="Password">
+            <span class="error_message"></span>
+        </div>
+        <div class="input_fields">
+            <input type="password" class="form-control item" id="confirm_password" placeholder="Re-enter Password">
+            <span class="error_message"></span>
+        </div>
+        <div class="input_fields">
+            <button type="submit" id="reg_button" class="btn btn-block create-account">Create Account</button>
+        </div>
+        <div>
+            <span class="validation_error_msg"></span>
+          </div>
+    </form>
+    <tr>
+        <td>Already have an account ? <a href="login.html" rel="register">Login</a></td>
+      </tr>
+          </div>
+</div>
+
+</div>
+<script type="module" src="login_reg.js"></script>
+</body>
+</html>
+

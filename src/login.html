@@ -1,0 +1,66 @@
+<!DOCTYPE html >
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Login</title>
+<link href="./login_style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<br />
+<br />
+
+<div class="login-card">
+<div class="log_body">
+  <div class="cbk_wallpaper section_split">
+    <!-- <img src="./cbk_wallpaper.jpeg"/> -->
+  </div>
+<form action="./dashboard.html" method="get" class="login_form section_split">
+  <div class="log_head">
+    <h1>LOGIN</h1>
+  </div>
+ <table width="200" border="0" align="center">
+  <tr>
+    <td class="input_fields">
+      <input placeholder="User Name" type="text" name="loginid" id="username" >
+      <span class="error_message"></span>
+    </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="input_fields">
+      <input placeholder="Password" type="password" name="pass" id="password">
+      <span class="error_message"></span>
+    </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><input name="remember" type="checkbox" value="Remember Me"> Keep me logged in</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><input type="submit" name="login" id="login_button" class="login-submit" value="SIGN IN" ></td>
+  </tr>
+  <tr>
+    <span class="validation_error_msg"></span>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Don't have an account ? <a href="registration.html" rel="register">Sign Up</a></td>
+  </tr>
+</table>
+</form> 
+</div>
+
+</div>
+<script type="module" src="login_reg.js"></script>
+</body>
+</html>

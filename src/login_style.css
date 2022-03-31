@@ -1,0 +1,70 @@
+.log_body {
+  display: flex;
+}
+body * {
+  font-family: sans-serif !important;
+}
+.log_head {
+  color: #4e4f50;
+}
+.section_split {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  height: 100vh;
+  border: 1px solid #eee;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.cbk_wallpaper {
+  width: 85vw;
+  height: 100vh;
+  background: url(./cbk_wallpaper.jpeg) no-repeat;
+  opacity: 0.7;
+}
+.input_fields,
+.form-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: max-content;
+  min-height: 100px;
+  flex-direction: column;
+}
+.input_fields input,
+.input_fields textarea,
+.form-box input {
+  width: 300px;
+  height: 45px;
+  margin: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgb(109, 108, 108);
+  padding: 5px;
+  font-size: 16px;
+}
+.validation_error_msg {
+  color: red;
+  font-size: 18px;
+}
+.input_fields .error_message {
+  font-size: 13px;
+  color: rgb(109, 108, 108);
+  margin: 0 10px;
+  font-weight: 600;
+  width: 100%;
+}
+#login_button,
+#reg_button {
+  background-color: #42b9ef;
+  width: 300px;
+  height: 45px;
+  color: #fff;
+  font-weight: 600px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  float: right;
+  font-size: 20px;
+}
