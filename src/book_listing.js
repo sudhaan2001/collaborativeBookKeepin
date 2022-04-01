@@ -216,6 +216,7 @@ class BookListing {
     newEl.innerHTML = bookTemplate;
     return newEl;
   }
+  closeUpload() {}
 }
 
 const bookListing = new BookListing();
